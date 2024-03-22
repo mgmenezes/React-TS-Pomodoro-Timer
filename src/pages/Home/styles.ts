@@ -14,13 +14,13 @@ form{
   gap: 3.5rem;
 }
 `;
-
+export const StartCountdownButton = styled.button``
 export const FormContainer = styled.div`
 width: 100%;
  display: flex;
   align-items: center;
   gap: 0.5rem;
-  color: ${props => props.theme['gray-100']};
+  color: ${colors => colors.theme['gray-100']};
   font-size: 1.125rem;
   font-weight: bold;
   flex-wrap: wrap;
@@ -31,10 +31,10 @@ font-family: 'Roboto Mono', monospace;
 font-size: 10rem;
 line-height: 8rem;
 display: flex;
-color: ${props => props.theme['gray-100']};
+color: ${colors => colors.theme['gray-100']};
 gap: 1rem;
 span{
-  background: ${props => props.theme['gray-700']};
+  background: ${colors => colors.theme['gray-700']};
   padding: 2rem 1rem;
   border-radius: 8px;
 }
@@ -43,7 +43,7 @@ span{
 export const Divider = styled.div`
 display: flex;
 padding: 1rem 0;
-color: ${props => props.theme['green-500']};
+color: ${colors => colors.theme['green-500']};
 
 justify-content: center;
 width: 4rem;
