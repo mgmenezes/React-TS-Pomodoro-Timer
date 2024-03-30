@@ -4,7 +4,9 @@ import {
   Divider,
   FormContainer,
   HomeContainer,
+  MinutesAmountInput,
   StartCountdownButton,
+  TaskInput,
 } from "./styles";
 
 export const Home = () => {
@@ -13,9 +15,13 @@ export const Home = () => {
       <form action="">
         <FormContainer>
           <label htmlFor="task">Vou trabalhar em</label>
-          <input type="text" />
+          <TaskInput placeholder="Dê um nome para o seu projeto" type="text" />
           <label htmlFor="">Durante</label>
-          <input type="number" id="minutesAmount" />
+          <MinutesAmountInput
+            placeholder="00"
+            type="number"
+            id="minutesAmount"
+          />
           <span>minutos</span>
         </FormContainer>
 
