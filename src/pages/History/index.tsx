@@ -1,4 +1,4 @@
-import { HistoryContainer, HistoryList } from "./styles";
+import { HistoryContainer, HistoryList, Status } from "./styles";
 
 export function History() {
   return (
@@ -19,31 +19,41 @@ export function History() {
               <td>Task 1</td>
               <td>25 minutes</td>
               <td>Last Week</td>
-              <td>10/09/2021</td>
+              <td>
+                <Status statusColor="green">Concluido</Status>
+              </td>
             </tr>
             <tr>
               <td>Task 2</td>
               <td>50 minutes</td>
               <td>Last Week</td>
-              <td>10/09/2021</td>
+              <td>
+                <Status statusColor="green">Concluido</Status>
+              </td>
             </tr>
             <tr>
               <td>Task 3</td>
               <td>30 minutes</td>
               <td>Last Week</td>
-              <td>10/09/2021</td>
+              <td>
+                <Status statusColor="green">Concluido</Status>
+              </td>
             </tr>
             <tr>
               <td>Task 4</td>
               <td>Last Week</td>
               <td>30 minutes</td>
-              <td>10/09/2021</td>
+              <td>
+                <Status statusColor="green">Concluido</Status>
+              </td>
             </tr>
             <tr>
               <td>Task 5</td>
               <td>Last Week</td>
               <td>30 minutes</td>
-              <td>10/09/2021</td>
+              <td>
+                <Status statusColor="green">Concluido</Status>
+              </td>
             </tr>
           </tbody>
         </table>
