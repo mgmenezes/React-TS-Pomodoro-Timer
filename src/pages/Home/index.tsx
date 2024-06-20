@@ -6,8 +6,8 @@ import {
   StopCountdownButton,
 } from "./styles";
 import { createContext, useState } from "react";
-import { NewCycleForm } from "./NewCycleForm";
-import { Countdown } from "./Countdown";
+import { NewCycleForm } from "./components/NewCycleForm";
+import { Countdown } from "./components/Countdown";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 import { FormProvider, useForm } from "react-hook-form";

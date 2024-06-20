@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { BaseInput } from "../styles";
+import { BaseInput } from "../../styles";
 
 export const TaskInput = styled(BaseInput)`
   flex: 1;
